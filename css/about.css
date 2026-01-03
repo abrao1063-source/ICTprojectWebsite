@@ -1,0 +1,94 @@
+ /* 1. Define your variables here */
+    :root {
+        --primary: #0a192f; /* Deep Midnight */
+        --accent: #c5a059;  /* Metallic Gold */
+        --bg: #f4f7f9;
+        --white: #ffffff;
+    }
+
+    body { 
+        font-family: sans-serif; 
+        background: var(--bg); /* Using variable */
+        padding: 20px; 
+        color: #333; 
+    }
+    
+    .team-container { 
+        max-width: 800px; 
+        margin: auto; 
+        background: var(--white); 
+        border-top: 5px solid var(--accent);
+    }
+    
+    header { 
+        background: var(--primary); 
+        padding: 40px 20px; 
+        text-align: center; 
+    }
+    header h1 { color: var(--accent); margin: 0; text-transform: uppercase; }
+    header p { color: var(--white); margin: 10px 0; letter-spacing: 1px; }
+
+    .team-list { padding: 30px; }
+
+    .member { 
+        display: flex; 
+        align-items: center; 
+        gap: 20px; 
+        margin-bottom: 25px; 
+        padding-bottom: 20px; 
+        border-bottom: 1px solid #eee; 
+    }
+    
+    .member img { 
+        width: 120px; 
+        height: 120px; 
+        object-fit: cover; 
+        border: 2px solid var(--primary); 
+        flex-shrink: 0; 
+    }
+
+    .info h2 { margin: 0; color: var(--primary); }
+    .info .role { color: var(--accent); font-weight: bold; margin: 5px 0; }
+    .info .details { font-style: italic; color: #666; }
+
+    .stats { 
+        display: flex; 
+        background: var(--primary); 
+        padding: 30px 10px; 
+        text-align: center;
+        color: var(--white);
+    }
+
+    .stat-box { 
+        flex: 1; 
+        border-right: 1px solid rgba(197, 160, 89, 0.3); /* Slightly transparent gold */
+        transition: transform 0.3s ease;
+    }
+
+    .stat-box:last-child { border-right: none; }
+
+    .stat-box strong { 
+        display: block; 
+        font-size: 1.8rem; 
+        color: var(--accent); 
+    }
+
+    .stat-box small { 
+        text-transform: uppercase; 
+        letter-spacing: 1px; 
+        font-size: 0.75rem; 
+        color: #ccc;
+    }
+
+    .stat-box:hover { transform: translateY(-5px); }
+
+    @media (max-width: 600px) {
+        .member { flex-direction: column; text-align: center; }
+        .stats { flex-direction: column; gap: 20px; }
+        .stat-box { 
+            border-right: none; 
+            border-bottom: 3px solid var(--accent); 
+            padding-bottom: 10px; 
+        }
+        .stat-box:last-child { border-bottom: none; }
+    }
