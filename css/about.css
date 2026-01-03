@@ -1,0 +1,28 @@
+/* Navbar section */
+:root {
+    --primary: #1a365d;
+    --accent: #c5a059;
+    --white: #ffffff;
+}
+
+/* 1. The Container */
+.navbar {
+    background-color: var(--primary);
+    padding: 15px;
+    display: flex;          /* Places items in a row */
+    justify-content: center; /* Centers items horizontally */
+    gap: 30px;              /* Creates even space between links */
+}
+
+/* 2. The Links */
+.navbar a {
+    color: var(--white);
+    text-decoration: none;  /* Removes the underline */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* 3. The Hover State */
+.navbar a:hover {
+    color: var(--accent);   /* Changes color when mouse moves over */
+}
