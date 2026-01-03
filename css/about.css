@@ -1,3 +1,4 @@
+
  /* 1. Define your variables here */
     :root {
         --primary: #0a192f; /* Deep Midnight */
@@ -12,7 +13,27 @@
         padding: 20px; 
         color: #333; 
     }
-    
+    /* 1. The Container */
+.navbar {
+    background-color: var(--primary);
+    padding: 15px;
+    display: flex;          /* Places items in a row */
+    justify-content: center; /* Centers items horizontally */
+    gap: 30px;              /* Creates even space between links */
+}
+
+/* 2. The Links */
+.navbar a {
+    color: var(--white);
+    text-decoration: none;  /* Removes the underline */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* 3. The Hover State */
+.navbar a:hover {
+    color: var(--accent);   /* Changes color when mouse moves over */
+}
     .team-container { 
         max-width: 800px; 
         margin: auto; 
