@@ -40,7 +40,7 @@
                 <div class="form-line">
             <div class="form-section">
                 <label>Gender</label>
-                <select id="gender">
+                <select id="gender" onchange="updateInfo()">
                     <option value="no">Select Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -48,7 +48,7 @@
             </div>
             <div class="form-section">
                 <label>Applying for Class</label>
-                <select id="classLevel">
+                <select id="classLevel" onchange="updateInfo()">
                     <option value="0">Select Class</option>
                     <option value="1-8">Class 1 to 8</option>
                     <option value="9">Class 9</option>
@@ -67,11 +67,18 @@
         <div class="form-section">
             <label>Select Prep Option</label>
             <div class="price-list">
-                <label class="radio-item"><input type="radio" name="prepOption"  > Written Course (10k)</label>
-                <label class="radio-item"><input type="radio" name="prepOption" > Intelligence (5k)</label>
-                <label class="radio-item"><input type="radio" name="prepOption" > Interview (8k)</label>
-                <label class="radio-item"><input type="radio" name="prepOption"> Whole Class (18k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" value="10000" onchange="updateInfo()"  > Written Course (10k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" value="5000" onchange="updateInfo()" > Intelligence (5k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" value="8000" onchange="updateInfo()" > Interview (8k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" value="18000" onchange="updateInfo()" > Whole Class (18k)</label>
             </div>
+        </div>
+                <div class="result-box">
+            <label>Eligible Institutions:</label>
+            <span id="collegeList" class="college-highlight">Selection required...</span>
+            <hr class="divider">
+            <label>Total Fee:</label>
+            <span class="total-price">Rs. <span id="totalPrice">0</span></span>
         </div>
         <button type="submit">Submit Application</button>
 </div>  
