@@ -51,11 +51,11 @@ Easy navigation for visitors
 
 🛠️ Technologies Used
 
-HTML5 – Structure of the website
+HTML – Structure of the website
 
-CSS3 – Styling and layout
+CSS – Styling and layout
 
-JavaScript (optional / basic) – Interactivity
+JavaScript  – Interactivity
 
 (This project focuses on frontend development as part of our learning journey.)
 
@@ -64,10 +64,10 @@ JavaScript (optional / basic) – Interactivity
 This project is created by university students as part of our learning journey in the first semester.
 
 Muhammad Abubakar
-Group Leader – Developed the Application Form Page and managed overall project work.
+Group Leader – Developed the Application Form Page and About us page and managed other workof project.
 
 Muhammad Umair Habib
-Developed the Home Page and About Us Page, focusing on layout and user-friendly design.
+Developed the Home Page and pdf report of the project, focusing on layout and user-friendly design.
 
 Susheel Kumar
 Developed the Table Page, organizing college data in a clear and readable way.
