@@ -11,7 +11,7 @@ body { font-family: sans-serif; background-color: var(--bg); color: var(--text);
 .form { 
     background: var(--white); 
     max-width: 550px; 
-    margin: 0 auto; 
+    margin: 30px auto; 
     padding: 25px; 
     border-top: 5px solid var(--primary); 
     border-radius: 4px; 
