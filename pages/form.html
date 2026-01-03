@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/formstyle.css">
 </head>
 <body>
 
@@ -44,6 +45,24 @@
                 </select>
             </div>
         </div>
+                <div class="form-section">
+            <label>Preparation Mode</label>
+            <div class="prep-mode">
+                <label class="radio-item"><input type="radio" name="prepMode" value="physical" checked> Physical</label>
+                <label class="radio-item"><input type="radio" name="prepMode" value="online"> Online</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <label>Select Prep Option</label>
+            <div class="price-list">
+                <label class="radio-item"><input type="radio" name="prepOption"  > Written Course (10k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" > Intelligence (5k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption" > Interview (8k)</label>
+                <label class="radio-item"><input type="radio" name="prepOption"> Whole Class (18k)</label>
+            </div>
+        </div>
+        <button type="submit">Submit Application</button>
 </div>  
     </form>
 </body>
