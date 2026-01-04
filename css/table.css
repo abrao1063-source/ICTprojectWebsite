@@ -1,0 +1,88 @@
+/* Table section */
+:root {
+    --primary: #1a365d;
+    --accent: #c5a059;
+    --bg: #f8fafc;
+    --text: #2d3748;
+    --white: #ffffff;
+}
+
+.table-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--text);
+}
+
+.table-container h2 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures corners are rounded */
+}
+
+th {
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+    border-bottom: 3px solid var(--accent);
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5f9;
+}
+
+tr:hover {
+    background-color: #edf2f7;
+}
+
+strong {
+    color: var(--primary);
+}
+
+/* navbar style section */
+
+:root {
+    --primary: #1a365d;
+    --accent: #c5a059;
+    --white: #ffffff;
+}
+
+/* 1. The Container */
+.navbar {
+    background-color: var(--primary);
+    padding: 15px;
+    display: flex;          /* Places items in a row */
+    justify-content: center; /* Centers items horizontally */
+    gap: 30px;          /* Creates even space between links */
+}
+
+/* 2. The Links */
+.navbar a {
+    color: var(--white);
+    text-decoration: none;  /* Removes the underline */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* 3. The Hover State */
+.navbar a:hover {
+    color: var(--accent);   /* Changes color when mouse moves over */
+}
