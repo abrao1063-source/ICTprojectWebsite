@@ -34,6 +34,7 @@
 .navbar a:hover {
     color: var(--accent);   /* Changes color when mouse moves over */
 }
+<<<<<<< Updated upstream
     .team-container { 
         max-width: 800px; 
         margin: auto; 
@@ -148,3 +149,7 @@
 .navbar a:hover {
     color: var(--accent);   /* Changes color when mouse moves over */
 }
+=======
+
+
+>>>>>>> Stashed changes
