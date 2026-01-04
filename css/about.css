@@ -64,7 +64,6 @@
     .member img { 
         width: 120px; 
         height: 120px; 
-        object-fit: cover; 
         border: 2px solid var(--primary); 
         flex-shrink: 0; 
     }
