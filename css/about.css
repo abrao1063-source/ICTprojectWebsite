@@ -103,13 +103,48 @@
 
     .stat-box:hover { transform: translateY(-5px); }
 
-    @media (max-width: 600px) {
-        .member { flex-direction: column; text-align: center; }
-        .stats { flex-direction: column; gap: 20px; }
-        .stat-box { 
+    @media (max-width: 600px) 
+    {
+            .member { flex-direction: column; 
+                      text-align: center; }
+
+            .stats { flex-direction: column;
+                    gap: 20px; }
+
+            .stat-box { 
             border-right: none; 
             border-bottom: 3px solid var(--accent); 
-            padding-bottom: 10px; 
-        }
+            padding-bottom: 10px;  }
+
         .stat-box:last-child { border-bottom: none; }
     }
+
+/* navbar style section */
+
+:root {
+    --primary: #1a365d;
+    --accent: #c5a059;
+    --white: #ffffff;
+}
+
+/* 1. The Container */
+.navbar {
+    background-color: var(--primary);
+    padding: 15px;
+    display: flex;          /* Places items in a row */
+    justify-content: center; /* Centers items horizontally */
+    gap: 30px;          /* Creates even space between links */
+}
+
+/* 2. The Links */
+.navbar a {
+    color: var(--white);
+    text-decoration: none;  /* Removes the underline */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* 3. The Hover State */
+.navbar a:hover {
+    color: var(--accent);   /* Changes color when mouse moves over */
+}
