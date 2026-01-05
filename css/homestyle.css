@@ -125,6 +125,19 @@ footer {
     .header h2 {
         font-size: 28px;
     }
+    /* Tablets */
+@media (max-width: 768px) {
+    .college-card img {
+        height: 150px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .college-card img {
+        height: 120px;
+    }
+}
 }
 
 

@@ -2,7 +2,7 @@
 Top Boarding Colleges of Pakistan 🎓
 📌 Project Overview
 
-This website project is developed by freshers (1st semester university students) as an academic and learning-based project. The purpose of this website is to provide clear, organized, and user-friendly information about the Top Boarding Colleges of Pakistan.
+This website project is developed by Muhammad Abubakar, Muhammad Umair Habib and Susheel Kumar Sejwani as an academic and learning-based project. The purpose of this website is to provide clear, organized, and user-friendly information about the Top Boarding Colleges of Pakistan.
 
 Our platform helps students and parents easily explore different boarding colleges, compare them, and choose the one that best matches their preferences.
 
