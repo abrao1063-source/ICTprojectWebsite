@@ -18,6 +18,7 @@
     border-radius: 30px;
     display: inline-block;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
 /* Hover Effect */

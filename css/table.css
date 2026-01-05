@@ -31,7 +31,7 @@ table {
 }
 
 th {
-    background-color: var(--primary);
+    background: linear-gradient(135deg, #0a192f, #132a4a);
     color: var(--white);
     text-align: left;
     padding: 15px;
