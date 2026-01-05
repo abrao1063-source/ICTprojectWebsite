@@ -7,35 +7,7 @@
 }
 
 body { font-family: sans-serif; background-color: var(--bg); color: var(--text); padding: 20px; }
-/* The main navigation container */
-.navbar {
-    background-color: var(--primary);
-    display: flex;
-    justify-content: center; /* Centers the links */
-    padding: 15px;
-    gap: 30px;
-}
 
-/* Styling the list and links */
-.navbar a {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 2rem; /* Space between links */
-}
-
-.navbar a {
-    text-decoration: none;
-    color: var(--white);
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-/* Hover effect using the accent color */
-.navbar a:hover {
-    color: var(--accent);
-}
 .form { 
     background: var(--white); 
     max-width: 550px; 
